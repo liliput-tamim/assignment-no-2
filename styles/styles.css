@@ -3,6 +3,7 @@
   font-family: 'Noto Serif', serif;
   background-color: #f9fbff;
   color: #333;
+  width: 100%;
 }
 body{
     overflow-x: hidden;
@@ -458,12 +459,13 @@ nav a {
 }
 
 
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   .matha {
     padding-left: 2px;
     padding-right: 2px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
     
   }
   .cirt {
@@ -558,6 +560,8 @@ nav a {
 
 .deals-wrapper {
   max-width: 100%;
+  margin: 0 auto;
+    padding-left: 0px;
 }
 
 .deal-card small {
@@ -568,6 +572,7 @@ nav a {
 .deal-card.large {
   width: 367px;
   height: 150px;
+;
 }
 
   .product-grid {
@@ -589,11 +594,17 @@ nav a {
   .subscribe-form {
     flex-direction: row;
     display: flex;
-    width: 100px;
-    
+    width:50pxS;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: small;
   }
   .subscribe-section {
    max-width: 100%;
+   position: relative;
   }
 
   .overlay {
