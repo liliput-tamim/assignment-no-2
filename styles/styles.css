@@ -4,7 +4,9 @@
   background-color: #f9fbff;
   color: #333;
 }
-
+body{
+    overflow-x: hidden;
+}
 .matha {
   display: flex;
   justify-content: space-between;
@@ -585,7 +587,7 @@ nav a {
   .subscribe-form {
     flex-direction: row;
     display: flex;
-    width: 100%px;
+    width: 100px;
     
   }
   .subscribe-section {
