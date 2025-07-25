@@ -1,6 +1,6 @@
 .prothom {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Noto Serif', serif;
   background-color: #f9fbff;
   color: #333;
 }
@@ -20,7 +20,7 @@ body{
   font-size: 24px;
   color: #f4741e;
   font-weight: bold;
-  font-family: 'Georgia', serif;
+  font-family: 'Noto Serif', serif;
 }
 
 nav a {
@@ -83,7 +83,7 @@ nav a {
   color: #666;
 }
 .card-parents {
-  font-family: Arial, sans-serif;
+  font-family: 'Noto Serif', serif;
   background-color: #f9fbff;
   margin: 0;
   padding: 0;
@@ -142,7 +142,7 @@ nav a {
 
 .ashol {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Noto Serif', serif;
   background-color: #f5f7fa;
   color: #333;
   
@@ -219,7 +219,7 @@ nav a {
 
 .indulge {
   
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Noto Serif', serif;
   background-color: #f5f7fa;
   color: #333;
   padding: auto;
@@ -340,7 +340,7 @@ nav a {
 
 .last {
   margin: 0px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Noto Serif', serif;
   background-color: #fff;
 }
 
